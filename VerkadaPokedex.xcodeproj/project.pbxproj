@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2364F1DF29416F3800E5F88F /* VerkadaPokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1DE29416F3800E5F88F /* VerkadaPokedexApp.swift */; };
+		2364F1E129416F3800E5F88F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1E029416F3800E5F88F /* ContentView.swift */; };
+		2364F1E329416F3800E5F88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2364F1E229416F3800E5F88F /* Assets.xcassets */; };
+		2364F1E629416F3800E5F88F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2364F1E529416F3800E5F88F /* Preview Assets.xcassets */; };
+		2364F1F029416F3800E5F88F /* VerkadaPokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1EF29416F3800E5F88F /* VerkadaPokedexTests.swift */; };
+		2364F1FA29416F3800E5F88F /* VerkadaPokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1F929416F3800E5F88F /* VerkadaPokedexUITests.swift */; };
+		2364F1FC29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1FB29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2364F1EC29416F3800E5F88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2364F1D329416F3800E5F88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2364F1DA29416F3800E5F88F;
+			remoteInfo = VerkadaPokedex;
+		};
+		2364F1F629416F3800E5F88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2364F1D329416F3800E5F88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2364F1DA29416F3800E5F88F;
+			remoteInfo = VerkadaPokedex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerkadaPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2364F1DE29416F3800E5F88F /* VerkadaPokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexApp.swift; sourceTree = "<group>"; };
+		2364F1E029416F3800E5F88F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2364F1E229416F3800E5F88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2364F1E529416F3800E5F88F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2364F1EB29416F3800E5F88F /* VerkadaPokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerkadaPokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2364F1EF29416F3800E5F88F /* VerkadaPokedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexTests.swift; sourceTree = "<group>"; };
+		2364F1F529416F3800E5F88F /* VerkadaPokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerkadaPokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2364F1F929416F3800E5F88F /* VerkadaPokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexUITests.swift; sourceTree = "<group>"; };
+		2364F1FB29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2364F1D829416F3800E5F88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1E829416F3800E5F88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1F229416F3800E5F88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2364F1D229416F3800E5F88F = {
+			isa = PBXGroup;
+			children = (
+				2364F1DD29416F3800E5F88F /* VerkadaPokedex */,
+				2364F1EE29416F3800E5F88F /* VerkadaPokedexTests */,
+				2364F1F829416F3800E5F88F /* VerkadaPokedexUITests */,
+				2364F1DC29416F3800E5F88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2364F1DC29416F3800E5F88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */,
+				2364F1EB29416F3800E5F88F /* VerkadaPokedexTests.xctest */,
+				2364F1F529416F3800E5F88F /* VerkadaPokedexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2364F1DD29416F3800E5F88F /* VerkadaPokedex */ = {
+			isa = PBXGroup;
+			children = (
+				2364F1DE29416F3800E5F88F /* VerkadaPokedexApp.swift */,
+				2364F1E029416F3800E5F88F /* ContentView.swift */,
+				2364F1E229416F3800E5F88F /* Assets.xcassets */,
+				2364F1E429416F3800E5F88F /* Preview Content */,
+			);
+			path = VerkadaPokedex;
+			sourceTree = "<group>";
+		};
+		2364F1E429416F3800E5F88F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2364F1E529416F3800E5F88F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2364F1EE29416F3800E5F88F /* VerkadaPokedexTests */ = {
+			isa = PBXGroup;
+			children = (
+				2364F1EF29416F3800E5F88F /* VerkadaPokedexTests.swift */,
+			);
+			path = VerkadaPokedexTests;
+			sourceTree = "<group>";
+		};
+		2364F1F829416F3800E5F88F /* VerkadaPokedexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2364F1F929416F3800E5F88F /* VerkadaPokedexUITests.swift */,
+				2364F1FB29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift */,
+			);
+			path = VerkadaPokedexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2364F1DA29416F3800E5F88F /* VerkadaPokedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2364F1FF29416F3800E5F88F /* Build configuration list for PBXNativeTarget "VerkadaPokedex" */;
+			buildPhases = (
+				2364F1D729416F3800E5F88F /* Sources */,
+				2364F1D829416F3800E5F88F /* Frameworks */,
+				2364F1D929416F3800E5F88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerkadaPokedex;
+			productName = VerkadaPokedex;
+			productReference = 2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2364F1EA29416F3800E5F88F /* VerkadaPokedexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2364F20229416F3800E5F88F /* Build configuration list for PBXNativeTarget "VerkadaPokedexTests" */;
+			buildPhases = (
+				2364F1E729416F3800E5F88F /* Sources */,
+				2364F1E829416F3800E5F88F /* Frameworks */,
+				2364F1E929416F3800E5F88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2364F1ED29416F3800E5F88F /* PBXTargetDependency */,
+			);
+			name = VerkadaPokedexTests;
+			productName = VerkadaPokedexTests;
+			productReference = 2364F1EB29416F3800E5F88F /* VerkadaPokedexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2364F1F429416F3800E5F88F /* VerkadaPokedexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2364F20529416F3800E5F88F /* Build configuration list for PBXNativeTarget "VerkadaPokedexUITests" */;
+			buildPhases = (
+				2364F1F129416F3800E5F88F /* Sources */,
+				2364F1F229416F3800E5F88F /* Frameworks */,
+				2364F1F329416F3800E5F88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2364F1F729416F3800E5F88F /* PBXTargetDependency */,
+			);
+			name = VerkadaPokedexUITests;
+			productName = VerkadaPokedexUITests;
+			productReference = 2364F1F529416F3800E5F88F /* VerkadaPokedexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2364F1D329416F3800E5F88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2364F1DA29416F3800E5F88F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2364F1EA29416F3800E5F88F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2364F1DA29416F3800E5F88F;
+					};
+					2364F1F429416F3800E5F88F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2364F1DA29416F3800E5F88F;
+					};
+				};
+			};
+			buildConfigurationList = 2364F1D629416F3800E5F88F /* Build configuration list for PBXProject "VerkadaPokedex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2364F1D229416F3800E5F88F;
+			productRefGroup = 2364F1DC29416F3800E5F88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2364F1DA29416F3800E5F88F /* VerkadaPokedex */,
+				2364F1EA29416F3800E5F88F /* VerkadaPokedexTests */,
+				2364F1F429416F3800E5F88F /* VerkadaPokedexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2364F1D929416F3800E5F88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2364F1E629416F3800E5F88F /* Preview Assets.xcassets in Resources */,
+				2364F1E329416F3800E5F88F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1E929416F3800E5F88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1F329416F3800E5F88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2364F1D729416F3800E5F88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2364F1E129416F3800E5F88F /* ContentView.swift in Sources */,
+				2364F1DF29416F3800E5F88F /* VerkadaPokedexApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1E729416F3800E5F88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2364F1F029416F3800E5F88F /* VerkadaPokedexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1F129416F3800E5F88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2364F1FC29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift in Sources */,
+				2364F1FA29416F3800E5F88F /* VerkadaPokedexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2364F1ED29416F3800E5F88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2364F1DA29416F3800E5F88F /* VerkadaPokedex */;
+			targetProxy = 2364F1EC29416F3800E5F88F /* PBXContainerItemProxy */;
+		};
+		2364F1F729416F3800E5F88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2364F1DA29416F3800E5F88F /* VerkadaPokedex */;
+			targetProxy = 2364F1F629416F3800E5F88F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2364F1FD29416F3800E5F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2364F1FE29416F3800E5F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2364F20029416F3800E5F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerkadaPokedex/Preview Content\"";
+				DEVELOPMENT_TEAM = XTB92D58U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2364F20129416F3800E5F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerkadaPokedex/Preview Content\"";
+				DEVELOPMENT_TEAM = XTB92D58U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2364F20329416F3800E5F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTB92D58U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerkadaPokedex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerkadaPokedex";
+			};
+			name = Debug;
+		};
+		2364F20429416F3800E5F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTB92D58U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerkadaPokedex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerkadaPokedex";
+			};
+			name = Release;
+		};
+		2364F20629416F3800E5F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTB92D58U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerkadaPokedex;
+			};
+			name = Debug;
+		};
+		2364F20729416F3800E5F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTB92D58U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerkadaPokedex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2364F1D629416F3800E5F88F /* Build configuration list for PBXProject "VerkadaPokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2364F1FD29416F3800E5F88F /* Debug */,
+				2364F1FE29416F3800E5F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2364F1FF29416F3800E5F88F /* Build configuration list for PBXNativeTarget "VerkadaPokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2364F20029416F3800E5F88F /* Debug */,
+				2364F20129416F3800E5F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2364F20229416F3800E5F88F /* Build configuration list for PBXNativeTarget "VerkadaPokedexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2364F20329416F3800E5F88F /* Debug */,
+				2364F20429416F3800E5F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2364F20529416F3800E5F88F /* Build configuration list for PBXNativeTarget "VerkadaPokedexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2364F20629416F3800E5F88F /* Debug */,
+				2364F20729416F3800E5F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2364F1D329416F3800E5F88F /* Project object */;
+}
