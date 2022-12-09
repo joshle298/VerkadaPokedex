@@ -14,6 +14,11 @@
 		2364F1F029416F3800E5F88F /* VerkadaPokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1EF29416F3800E5F88F /* VerkadaPokedexTests.swift */; };
 		2364F1FA29416F3800E5F88F /* VerkadaPokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1F929416F3800E5F88F /* VerkadaPokedexUITests.swift */; };
 		2364F1FC29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F1FB29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift */; };
+		23A90A14294195CC00678632 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A13294195CC00678632 /* Pokemon.swift */; };
+		23A90A192942A03A00678632 /* CurrentPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A182942A03A00678632 /* CurrentPokemon.swift */; };
+		23A90A1B2942A4D200678632 /* PokemonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A1A2942A4D200678632 /* PokemonImage.swift */; };
+		23A90A2E2942E0F000678632 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A2D2942E0F000678632 /* CarouselView.swift */; };
+		23A90A302942E1A600678632 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A2F2942E1A600678632 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		2364F1F529416F3800E5F88F /* VerkadaPokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerkadaPokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2364F1F929416F3800E5F88F /* VerkadaPokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexUITests.swift; sourceTree = "<group>"; };
 		2364F1FB29416F3800E5F88F /* VerkadaPokedexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23A90A13294195CC00678632 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		23A90A182942A03A00678632 /* CurrentPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPokemon.swift; sourceTree = "<group>"; };
+		23A90A1A2942A4D200678632 /* PokemonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonImage.swift; sourceTree = "<group>"; };
+		23A90A2D2942E0F000678632 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		23A90A2F2942E1A600678632 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,9 @@
 		2364F1DD29416F3800E5F88F /* VerkadaPokedex */ = {
 			isa = PBXGroup;
 			children = (
+				23A90A12294195A100678632 /* PokeAPI */,
 				2364F1DE29416F3800E5F88F /* VerkadaPokedexApp.swift */,
-				2364F1E029416F3800E5F88F /* ContentView.swift */,
+				23A90A112941956400678632 /* Views */,
 				2364F1E229416F3800E5F88F /* Assets.xcassets */,
 				2364F1E429416F3800E5F88F /* Preview Content */,
 			);
@@ -127,6 +138,26 @@
 			path = VerkadaPokedexUITests;
 			sourceTree = "<group>";
 		};
+		23A90A112941956400678632 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2364F1E029416F3800E5F88F /* ContentView.swift */,
+				23A90A2F2942E1A600678632 /* GridView.swift */,
+				23A90A2D2942E0F000678632 /* CarouselView.swift */,
+				23A90A1A2942A4D200678632 /* PokemonImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23A90A12294195A100678632 /* PokeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				23A90A13294195CC00678632 /* Pokemon.swift */,
+				23A90A182942A03A00678632 /* CurrentPokemon.swift */,
+			);
+			path = PokeAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +174,8 @@
 			dependencies = (
 			);
 			name = VerkadaPokedex;
+			packageProductDependencies = (
+			);
 			productName = VerkadaPokedex;
 			productReference = 2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +248,8 @@
 				Base,
 			);
 			mainGroup = 2364F1D229416F3800E5F88F;
+			packageReferences = (
+			);
 			productRefGroup = 2364F1DC29416F3800E5F88F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2364F1E129416F3800E5F88F /* ContentView.swift in Sources */,
+				23A90A1B2942A4D200678632 /* PokemonImage.swift in Sources */,
 				2364F1DF29416F3800E5F88F /* VerkadaPokedexApp.swift in Sources */,
+				23A90A302942E1A600678632 /* GridView.swift in Sources */,
+				23A90A14294195CC00678632 /* Pokemon.swift in Sources */,
+				23A90A2E2942E0F000678632 /* CarouselView.swift in Sources */,
+				23A90A192942A03A00678632 /* CurrentPokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +463,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +492,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
