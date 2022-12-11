@@ -37,4 +37,4 @@ Mid way through the project I wanted to experiment with a carousel-like view for
 :v: I hope you enjoyed taking a look into my though process and design skills through y'alls project! Talk soon.
 
 _~Joshua Le_
-_,joshua.le@nyu.edu_
+_, joshua.le@nyu.edu_
