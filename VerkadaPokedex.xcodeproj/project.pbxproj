@@ -19,6 +19,8 @@
 		23A90A1B2942A4D200678632 /* PokemonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A1A2942A4D200678632 /* PokemonImage.swift */; };
 		23A90A2E2942E0F000678632 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A2D2942E0F000678632 /* CarouselView.swift */; };
 		23A90A302942E1A600678632 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A2F2942E1A600678632 /* GridView.swift */; };
+		23B3365E2945751000D32A31 /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B3365D2945751000D32A31 /* PokemonType.swift */; };
+		23B3366129459A0900D32A31 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 23B3366029459A0900D32A31 /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 		23A90A1A2942A4D200678632 /* PokemonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonImage.swift; sourceTree = "<group>"; };
 		23A90A2D2942E0F000678632 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		23A90A2F2942E1A600678632 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		23B3365D2945751000D32A31 /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B3366129459A0900D32A31 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +148,6 @@
 				2364F1E029416F3800E5F88F /* ContentView.swift */,
 				23A90A2F2942E1A600678632 /* GridView.swift */,
 				23A90A2D2942E0F000678632 /* CarouselView.swift */,
-				23A90A1A2942A4D200678632 /* PokemonImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,7 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				23A90A13294195CC00678632 /* Pokemon.swift */,
+				23B3365D2945751000D32A31 /* PokemonType.swift */,
 				23A90A182942A03A00678632 /* CurrentPokemon.swift */,
+				23A90A1A2942A4D200678632 /* PokemonImage.swift */,
 			);
 			path = PokeAPI;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			);
 			name = VerkadaPokedex;
 			packageProductDependencies = (
+				23B3366029459A0900D32A31 /* CachedAsyncImage */,
 			);
 			productName = VerkadaPokedex;
 			productReference = 2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */;
@@ -249,6 +255,7 @@
 			);
 			mainGroup = 2364F1D229416F3800E5F88F;
 			packageReferences = (
+				23B3365F29459A0900D32A31 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			productRefGroup = 2364F1DC29416F3800E5F88F /* Products */;
 			projectDirPath = "";
@@ -299,6 +306,7 @@
 				23A90A14294195CC00678632 /* Pokemon.swift in Sources */,
 				23A90A2E2942E0F000678632 /* CarouselView.swift in Sources */,
 				23A90A192942A03A00678632 /* CurrentPokemon.swift in Sources */,
+				23B3365E2945751000D32A31 /* PokemonType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +631,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23B3365F29459A0900D32A31 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23B3366029459A0900D32A31 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23B3365F29459A0900D32A31 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2364F1D329416F3800E5F88F /* Project object */;
 }

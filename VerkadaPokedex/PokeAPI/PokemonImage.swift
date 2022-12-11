@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CachedAsyncImage
 
 struct PokemonImage: View {
     var imageLink = ""
@@ -13,7 +14,7 @@ struct PokemonImage: View {
     
     // image caching?
     var body: some View {
-        AsyncImage(url: URL(string: pokemonSprite))
+        CachedAsyncImage(url: URL(string: pokemonSprite))
             .frame(width: 85, height: 85)
             .onAppear {
                 let loadedData = UserDefaults.standard.string(forKey: imageLink)
@@ -21,10 +22,10 @@ struct PokemonImage: View {
                 if loadedData == nil {
                     getSprite(url: imageLink)
                     UserDefaults.standard.set(imageLink, forKey: imageLink)
-                    print("New url, we are caching...")
+//                    print("New url, we are caching...")
                 } else {
                     getSprite(url: loadedData!)
-                    print("using cached url...")
+//                    print("using cached url...")
                 }
             }
             //.clipShape(Circle())
@@ -35,7 +36,7 @@ struct PokemonImage: View {
     func getSprite(url: String) {
         var tempSprite: String?
         
-        CurrentPokemonApi().getData(url: url) { sprite in
+        CurrentPokemonApi().getImageURL(url: url) { sprite in
             tempSprite = sprite.front_default
             self.pokemonSprite = tempSprite ?? "placeholder"
         }
