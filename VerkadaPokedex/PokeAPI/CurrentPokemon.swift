@@ -7,20 +7,20 @@
 
 import Foundation
 
-struct CurrentPokemon: Decodable {
+struct CurrentPokemon: Codable {
     var sprites: PokemonSprites
     var types : [PokemonTypes]
 }
 
-struct PokemonSprites: Decodable {
+struct PokemonSprites: Codable {
     var front_default: String
 }
 
-struct PokemonTypes: Decodable {
+struct PokemonTypes: Codable {
     let type: PokemonTypeName
 }
 
-struct PokemonTypeName: Decodable {
+struct PokemonTypeName: Codable {
     let name: String
 }
 

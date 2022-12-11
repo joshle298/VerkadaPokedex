@@ -19,7 +19,6 @@
 		23A90A1B2942A4D200678632 /* PokemonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A1A2942A4D200678632 /* PokemonImage.swift */; };
 		23A90A2E2942E0F000678632 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A2D2942E0F000678632 /* CarouselView.swift */; };
 		23A90A302942E1A600678632 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A90A2F2942E1A600678632 /* GridView.swift */; };
-		23B3365E2945751000D32A31 /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B3365D2945751000D32A31 /* PokemonType.swift */; };
 		23B3366129459A0900D32A31 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 23B3366029459A0900D32A31 /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerkadaPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2364F1DB29416F3800E5F88F /* Verkada Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verkada Pokedex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2364F1DE29416F3800E5F88F /* VerkadaPokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaPokedexApp.swift; sourceTree = "<group>"; };
 		2364F1E029416F3800E5F88F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2364F1E229416F3800E5F88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +55,6 @@
 		23A90A1A2942A4D200678632 /* PokemonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonImage.swift; sourceTree = "<group>"; };
 		23A90A2D2942E0F000678632 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		23A90A2F2942E1A600678632 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		23B3365D2945751000D32A31 /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,7 @@
 		2364F1DC29416F3800E5F88F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */,
+				2364F1DB29416F3800E5F88F /* Verkada Pokedex.app */,
 				2364F1EB29416F3800E5F88F /* VerkadaPokedexTests.xctest */,
 				2364F1F529416F3800E5F88F /* VerkadaPokedexUITests.xctest */,
 			);
@@ -156,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				23A90A13294195CC00678632 /* Pokemon.swift */,
-				23B3365D2945751000D32A31 /* PokemonType.swift */,
 				23A90A182942A03A00678632 /* CurrentPokemon.swift */,
 				23A90A1A2942A4D200678632 /* PokemonImage.swift */,
 			);
@@ -183,7 +180,7 @@
 				23B3366029459A0900D32A31 /* CachedAsyncImage */,
 			);
 			productName = VerkadaPokedex;
-			productReference = 2364F1DB29416F3800E5F88F /* VerkadaPokedex.app */;
+			productReference = 2364F1DB29416F3800E5F88F /* Verkada Pokedex.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2364F1EA29416F3800E5F88F /* VerkadaPokedexTests */ = {
@@ -306,7 +303,6 @@
 				23A90A14294195CC00678632 /* Pokemon.swift in Sources */,
 				23A90A2E2942E0F000678632 /* CarouselView.swift in Sources */,
 				23A90A192942A03A00678632 /* CurrentPokemon.swift in Sources */,
-				23B3365E2945751000D32A31 /* PokemonType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +475,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedex;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Verkada Pokedex";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,7 +504,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuale.VerkadaPokedex;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Verkada Pokedex";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

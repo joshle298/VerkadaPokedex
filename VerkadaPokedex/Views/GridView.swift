@@ -32,13 +32,13 @@ struct GridView: View {
                             label: {
                                 VStack {
                                     PokemonImage(imageLink: "\(entry.url)") // Pokemon Image
-                                    Text("\(entry.name.capitalized)").foregroundColor(Color.white).lineLimit(1)
+                                    Text("\(entry.name.capitalized)").foregroundColor(Color.black).lineLimit(1)
                                         .font(.system(size: 14))
                                     // Text("\(entry.type)")
                                 }
                                 .padding()
                                 .foregroundColor(.white)
-                                .background(.pink)
+                                .background(Color("CardColor"))
                                 .clipShape(
                                     // 3
                                     RoundedRectangle(
@@ -46,18 +46,26 @@ struct GridView: View {
                                         style: .continuous
                                     ))
                             })
-//                        .onAppear() {
-//                            CurrentPokemonApi().getType(url: entry.url) { tColor in
-//                                cardBackground = tColor
-//                                print(cardBackground.first)
-//                            }
-//                        }
+                        .onAppear() {
+                            CurrentPokemonApi().getType(url: entry.url) { tColor in
+                                cardBackground = tColor
+                                print(cardBackground.first)
+                            }
+                        }
                     }
                 }
                 .padding(.horizontal)
             }
             .searchable(text: $searchText)
             .navigationTitle("Verkada Pokedex")
+//            .toolbar {
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    Image("og_image")
+//                        .resizable()
+//                        .frame(width: 50, height: 50)
+//    
+//                }
+//            }
         }
         .onAppear() {
             PokeApi().getData() { pokemon in
@@ -67,9 +75,6 @@ struct GridView: View {
         .refreshable() {
             PokeApi().getData() { pokemon in
                 self.pokemon = self.pokemon + pokemon
-                for pokemon in pokemon {
-                    print(pokemon.name)
-                }
             }
         }
     }
