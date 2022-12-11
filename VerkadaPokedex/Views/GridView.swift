@@ -49,6 +49,7 @@ struct GridView: View {
                         .onAppear() {
                             CurrentPokemonApi().getType(url: entry.url) { tColor in
                                 cardBackground = tColor
+                                print(entry.name)
                                 print(cardBackground.first)
                             }
                         }
