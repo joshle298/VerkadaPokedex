@@ -21,10 +21,12 @@ At first glance of the project, I wanted to take the approach of 1. Analyzing th
 
 ## Issues & Solutions I'd Like to Explore
 ### Pokemon Types
-My origial design idea was to take each Pokemon's respective type and apply its resepective background color to each card. However, I ran into quite a few issues trying to cast the value I was pulling from the PokeAPI into a String (different process than fetching each Pokemon's image). I believe this to be due to one of Swift's string protocols that my code was violating. Though the progress I made was not limited to being able to successfully pull each Pokemon's type and print it to the ouput terminal _(as seen below)___.
+My origial design idea was to take each Pokemon's respective type and apply its resepective background color to each card. However, I ran into quite a few issues trying to cast the value I was pulling from the PokeAPI into a String (different process than fetching each Pokemon's image). I believe this to be due to one of Swift's string protocols that my code was violating. Though the progress I made was not limited to being able to successfully pull each Pokemon's type and print it to the ouput terminal _(as seen below)_.
+
 <img width="723" alt="Screenshot 2022-12-11 at 1 18 51 AM" src="https://user-images.githubusercontent.com/59464508/206889542-a2e7e87c-a57d-4681-9961-4bd934793191.png">
 
 ## Extra Feature
-
+### Carousel Fun
 https://user-images.githubusercontent.com/59464508/206889550-130599b0-83e2-48be-aae7-d7c2a38e3561.mov
+Mid way through the project I wanted to experiment with a carousel-like view for the Pokemon where the left-most Pokemon is emphasized. You can see this in-app if you comment out the GridView() and uncomment the CarouselView() in ContentView.swift. It was pretty cool to look into the GeometryReader that Swift uses.
 
