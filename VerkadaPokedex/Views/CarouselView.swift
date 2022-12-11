@@ -48,7 +48,7 @@ struct CarouselView: View {
                                     .cornerRadius(5)
                                     .shadow(radius: 15)
                                     .scaleEffect(CGSize(width: scale, height: scale))
-                                    .background(Color.red)
+                                    .background(Color.clear)
                                 })
                             
                         }
