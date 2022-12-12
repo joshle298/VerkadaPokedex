@@ -32,7 +32,7 @@ My origial design idea was to take each Pokemon's respective type and apply its 
 https://user-images.githubusercontent.com/59464508/206891476-2a8baae1-ae9a-4d70-9196-1d40ac2ec608.mov
 
 
-Mid way through the project I wanted to experiment with a carousel-like view for the Pokemon where the left-most Pokemon is emphasized. You can see this in-app if you comment out the GridView() and uncomment the CarouselView() in ContentView.swift. It was pretty cool to look into the GeometryReader that Swift uses.
+Mid way through the project I wanted to experiment with a carousel-like view for the Pokemon where the left-most Pokemon is emphasized. You can see this in-app if you comment out the GridView() and uncomment the CarouselView() in ContentView.swift. It was pretty cool to look into the GeometryReader that Swift uses for this kind of effect.
 
 :v: I hope you enjoyed taking a look into my thought process and design skills through y'alls project! Talk soon.
 
